@@ -31,8 +31,11 @@ const EditUser = () => {
     try {
       await axios.patch(`https://sukri-backend.herokuapp.com/users/${id}`, {
         name,
-        email,
-        gender,
+        nim,
+        kelas,
+        semester,
+        jeniskelamin,
+        alamat,
       });
       navigate("/");
     } catch (error) {
