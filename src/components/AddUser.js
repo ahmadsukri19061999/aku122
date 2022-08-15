@@ -19,6 +19,7 @@ const AddUser = () => {
         kelas,
         semester,
         jeniskelamin,
+        alamat,
       });
       navigate("/");
     } catch (error) {
